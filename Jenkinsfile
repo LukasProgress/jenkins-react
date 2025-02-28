@@ -78,4 +78,10 @@ pipeline {
         }
 
     }
+
+    post {
+        always {
+            echo 'GITScmPolling works!'
+        }
+    }
 }
