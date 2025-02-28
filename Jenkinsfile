@@ -44,7 +44,7 @@ pipeline {
                         scp -o StrictHostKeyChecking=no \
                         -i $EC2_KEY \
                         -r build \
-                        $UBUNTU@$EC2_HOST:/home/ubuntu/build
+                        $UBUNTU@$EC2_HOST:/home/ubuntu/
                     '''
                     // Alte version löschen, neue version rüberkopieren, nginx neustarten: 
                     sh '''
