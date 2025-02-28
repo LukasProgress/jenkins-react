@@ -81,7 +81,7 @@ pipeline {
 
     post {
         always {
-            echo 'GITScmPolling works!'
+            echo 'SCM webhook funktioniert!'
         }
     }
 }
